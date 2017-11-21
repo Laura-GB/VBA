@@ -116,6 +116,7 @@ Sub UploadData(SheetName As String)
     Dim Heading As Range
     Dim Counter As Integer
     
+                            '=== Data tab
     Set shData = Sheets(SheetName)
     Set Headings = Range(shData.Range("A1"), shData.Range("A1").End(xlToRight))
     
